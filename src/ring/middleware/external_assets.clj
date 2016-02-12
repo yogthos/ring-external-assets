@@ -24,7 +24,7 @@
       codec/url-decode
       (remove-prefix asset-prefix)))
 
-(defn wrap-extranl-resources
+(defn wrap-extranal-resources
   "asset-path - specifies where the assets are located on the filesystem
    asset-prefix - specifies the URI prefix for the assets"
   [handler asset-path asset-prefix]
